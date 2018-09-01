@@ -1,0 +1,42 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Sample Short Description",
+          "examplePhrases": [
+            "Alexa open hello world",
+            "Alexa tell hello world hello",
+            "Alexa ask hello world say hello"
+          ],
+          "name": "dudaji-home-assist",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/18ec/af448d0feed14a5abdfb964b73da3224/APP_ICON?versionId=mkNxLAbacln2oPQFqZLzoMpBmjBh_tLR&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1535874874&Signature=2o%2F8fdXgXUwu6YiSUFfKtPPp2rY%3D",
+          "description": "Sample Full Description",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/d67e/215b7095c4704cb388aa59c4be9292c9/APP_ICON_LARGE?versionId=_3i.uAA3GQY7JA_zj4UwdGq1ECX98HuY&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1535874874&Signature=Y1wHBoWjQkzAQCJRq3EzZTZ6FLA%3D"
+        }
+      },
+      "distributionMode": "PRIVATE",
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "EDUCATION_AND_REFERENCE",
+      "isAvailableWorldwide": false,
+      "distributionCountries": [
+        "US"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        }
+      }
+    },
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    },
+    "manifestVersion": "1.0"
+  }
+}
